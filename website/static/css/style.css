@@ -1,0 +1,237 @@
+/* Top Bar */
+.php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+.gheight{height:50px;}
+.validate{color:red;}
+.sidebar-brand-icon .fas img{height:40px;width:40px;}
+.sidebar-brand{font-size:10pt !important;}
+.right{text-align:right;margin-top:10px;}
+.right a{color:#d4a113;padding:5px;border:1px #000;border-style: dotted;background:rgb(41, 13, 9);}
+.right a:hover{color:#fff;border:1px #000;border-style: dotted;text-decoration:none;}
+.seescholar .modal-dialog, .allfacilities .modal-dialog, .allameetings .modal-dialog, .allmeetings .modal-dialog, .allpupdates .modal-dialog {min-width:90%;color:#4e73df;}
+.leaddel{color:#4e73df;}
+.leaddel .modal-body h3{font-size:12pt;text-align:justify;}
+.leaddel .modal-body .Yes{background:green;border:none;color:#fff;width:80px;}
+.leaddel .modal-body .close{background:#b30202;border:none;color:#fff;width:80px;opacity:1 !important;}
+.expmodel .modal-dialog{min-width:99% !important;padding:none !important;}
+.expmodel .card-body {padding:10px;}
+.collapse-item, .allameetings .table .Head td, .allmeetings .table .Head td, .allfacilities .table .Head td{cursor:pointer;}
+
+.modal .modal-title{color:#b55400;padding-left:50px;}
+.feehist .modal-title{color:#1c13bf;}
+.expmodel .modal-title{padding-left:5px;}
+.feehist .input-group-append{margin-left:-1px;height:42px;margin-top:-3px;}
+.feehist .navbar-search{min-width:90%;}
+.Fee_hist_op .Show_Fee_Hist{font-size:12pt;color:blue;}
+@media screen and (max-width:900px){
+	.container-fluid .text-blue-800{text-align:center;}
+	.allameetings .right,.allmeetings .right,.allpupdates .right, .Update_Facilities .right {
+		text-align:center !important;
+	}
+}
+@media screen and (max-width:370px){
+	.expmodel .Updated_Facilities, .seescholar .Updated_Facilities, .allameetings .Updated_Facilities, .allmeetings .Updated_Facilities, .allpupdates .Updated_Facilities, .allfacilities .Updated_Facilities{display:none}
+	.expmodel .S_hide, .seescholar .S_hide, .allameetings .S_hide, .allmeetings .S_hide, .allpupdates .S_hide, .allfacilities .S_hide{padding:10px;}
+}
+.U_S_msg{margin-top:30px;}
+.empname, .empid, .usalary{color:green;}
+.feehist .fee_t_op{min-width:100%;}
+@media screen and (max-width:500px){
+	.container, .container-fluid {padding-left:0rem;padding-right: 0rem;}
+	.expmodel.needs-validation .container-fluid, .feehist .needs-validation .container-fluid{padding:0px !important;}
+	.feehist .fee_t_op{font-size:10pt;}
+	.expmodel .modal-body, .feehist .modal-body {padding:none;}
+}
+@media screen and (min-width:371px){
+	.S_hide{display:none;}
+}
+@media screen and (max-width:500px){
+	.cm_img {height:50px;width:50px;}
+}
+@media screen and (max-width:700px){
+	.allameetings .table tr td, .allmeetings .table tr td, .allpupdates .table tr td, .allfacilities .table tr td{font-size:9pt;}
+	.allameetings .card-body, .allmeetings .card-body, .allpupdates .card-body, .allfacilities .card-body{padding:1px;}
+	.allameetings .container, .allmeetings .container, .allpupdates .container, .allfacilities .container{padding-right:1px;padding-left:1px;}
+	.allameetings .container-fluid, .allmeetings .container-fluid, .allpupdates .container-fluid, .allfacilities .container-fluid {padding-right:1px;padding-left:1px;}
+	.allameetings .modal-body, .allmeetings .modal-body, .allpupdates .modal-body, .allfacilities .modal-body{padding:1px !important;}
+}
+.Sub_title{color:#001723;}
+.date{color:organge;}
+.time{color:blue;}
+.location{color:green;}
+.cm_img{height:100px;width:100px;margin-bottom:4px;}
+.School_Name{font-size:13pt;font-weight:bold;color:#4e73df;text-transform:uppercase;}
+.sidebar .nav-item .collapse .collapse-inner .collapse-header, .sidebar .nav-item .collapsing .collapse-inner .collapse-header {color:#fff;}
+.sidebar .nav-item .collapse .collapse-inner .collapse-item, .sidebar .nav-item .collapsing .collapse-inner .collapse-item{color:#e3e5f3;}
+.sidebar .nav-item .collapse .collapse-inner .collapse-item, .sidebar .nav-item .collapsing .collapse-inner .collapse-item a:hover{color:#e3e5f3;background:none !important;}
+.container-fluid .text-blue-800{color:#5d1aff !important;}
+.bg-blue{background:#4c73e4;}
+.collapse-item i{padding-right:5px;}
+.container-fluid .bg_color_1{background:#ff1ace;}
+.text-white-300{color:#fff}
+.container-fluid .bg_color_2{background: #daa40b;}
+.container-fluid h2, .container-fluid h1 {color:#fff !important;}
+.container-fluid .bg_color_3{background: #0dda09;}
+.container-fluid .bg_color_4{background: #d50210;}
+.imp_links .col-auto{padding-top:50px;}
+.imp_links a{color:#FFFFFF;}
+.imp_links .one, .imp_links .two, .imp_links .three, .imp_links .four{background:#19c797;height:180px;text-align:center;margin-right:1px;}
+/*
+.studeta .Heading, .Scholarships .Heading, .Updated_Facilities .Heading, .Expenditure .Heading, .Salary .Heading, .Fee .Heading, .Tot_Admit .Heading, .C_Admit .Heading, .M_Admit .Heading, .R_Admit .Heading, .Update_Facilities .Heading, .Update_Post .Heading, .Create_Meeting .Heading{font-size:13pt;color:#b5203c !important;text-align:center;}
+*/
+
+.container-fluid .Heading{font-size:13pt;color:#b5203c !important;text-align:center;}
+.C_Admit label .admission_note{font-size:7pt;font-style:italic;}
+textarea{resize:none;}
+.giving_height{height:44px;}
+@media screen and (min-width:992px) and (max-width:1260px){
+.CA_Title .admission_note{font-size:6pt;font-weight:bold;}
+}
+.btn, .fbox .btn, .R_Admit .btn{border:1px solid #e8e6e7;padding:10px;color:#fff;background:#4d0228;}
+.btn:hover, .fbox .btn:hover, .R_Admit .btn:hover{border:1px solid #4d0228;padding:10px;color:#4d0228;background:none;}
+.R_Admit .Desc{text-align:center !important;color:maroon;}
+.R_Admit label{color:#000;margin-top:20px;}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.T_Admit .Admit_Team_Img{height:125px;width:120px;}
+.T_Admit .score, .T_Admit .address, .T_Admit .experience, .T_Admit .Schedule{font-size:11pt;color:#fff;}
+.T_Admit .Schedule{margin-top:20px;}
+.T_Admit .Designation{font-size:10pt;color:#fff;font-style:italic;}
+.T_Admit .Name{font-size:12pt;color:#ddffcf;font-weight:bold;}
+.T_Admit .t_one{width:100%;background:#4d0243;padding:20px;margin-bottom:2px;}
+.T_Admit .t_two{width:100%;background:#205203;padding:20px;margin-bottom:2px;}
+.T_Admit .Heading{color: #4d0243 !important;font-size: 12pt;}
+.Select_T .form-check-label{color:#fff;font-size:10pt;}
+.Select_T .form-check-input{margin-left: 2rem!important;margin-top: -1px;}
+.T_Admit .btn, .T_Admit .btn{border:1px solid #e8e6e7;padding:10px;color:#fff;background:#4d0228;}
+.T_Admit .btn:hover, .T_Admit .btn:hover{border:1px solid #4d0228;padding:10px;color:#4d0228;background:none;}
+@media screen and (max-width:500px) {
+	.School_Name{font-size:9pt;}
+}
+
+@media screen and (min-width:373px) {
+	.Top_Schl_Name{display:none;}
+}
+@media screen and (max-width:372px) {
+	.School_Name{display:none;}
+	.Top_Schl_Name{text-align:center;padding:10px 0px 10px 0px;background:#4e73df;font-size:13pt;font-weight:bold;color:#fff;text-transform:uppercase;}	
+}
+@media screen and (max-width:501px){
+	.Scholarships .fbox{padding-left: 1.5rem;padding-right: 1.5rem;}
+}
+::-webkit-input-placeholder {
+  font-size: 12px;
+}
+::-moz-placeholder {
+  font-size: 12px;
+}
+:-ms-input-placeholder {
+  font-size: 12px;
+}
+::placeholder {
+  font-size: 12px;
+}
+@media screen and (max-width:500px){
+	#wrapper #content-wrapper #content {margin:5px;}
+	::-webkit-input-placeholder {
+	  font-size: 10px;
+	}
+	::-moz-placeholder {
+	  font-size: 10px;
+	}
+	:-ms-input-placeholder {
+	  font-size: 10px;
+	}
+	::placeholder {
+	  font-size: 10px;
+	}
+}
+.italic{font-size:9pt;}
+@media screen and (max-width:600px){
+	.modal-content {width:97%;margin-left:-10px;}
+	h1{font-size:12pt !important;}
+}
+@media screen and (max-width:370px){
+	.expmodel .Updated_Facilities{display:block !important;overflow:hidden;}
+	.expmodel .Updated_Facilities .table-responsive{overflow-x:hidden;}
+	.expmodel .Updated_Facilities .form-check-label{margin-left:15%;}
+}
+.addr{font-weight:bold;color:#001723;}
+.Show_S_Details table{border:1px solid orange;min-width:99%;margin:auto;display:block;}
+.Show_S_Details table th, .Show_S_Details table td{padding:3px;border:1px solid black;}
+.seestudeta .modal-dialog .needs-validation{margin:auto;display:block;max-width:500px !important;}
+.acayear , .cid{color:blue;}
+.acayear , .cid{color:blue;}
+.acayear span, .cid span{color:orange;}
+.List_Leaders table{border:1px solid #000;min-width:100%;}
+.List_Leaders table td{border:1px solid black;color:#000;padding:5px;font-size:10pt;}
+.bold{background:#000;font-weight:bold;color:#fff;font-size:11pt;}
+.List_Leaders .bold td{border:1px solid white !important;color:#fff;}
+.List_Leaders table a{background:#001723;width:50px;text-align:center;margin:auto;display:block;border-radius:10px;color:#fff;}
+.List_Leaders a:hover{border:1px solid #001723;background:none;color:#000;}
+.List_Material td{color:#000;border:1px solid black;}
+.admid{font-size:8pt;}
+.form-group label{color:#b55400;}
+/* .form-group label:before{content: '*';letter-spacing:10px;} */
+.form-group input, .form-group select, .form-group textarea{border:1px solid #001723;}
+.addmate .container, .container-fluid{padding-right:0px;padding-left:0px;}
+.form-group .reset{border:none;background:#001723;color:#fff;border-radius:10px;width:80px;}
+.ldhsip_delt{background:red !important;}	
+.ccmemo .stu_img{height:100px;width:100px;padding:0px;}
+table .doappordec a.yes{width:100px;height:20px;background:green;margin-bottom:20px;}
+table .doappordec a.no{width:100px;height:20px;background:red;}
+table .doappordec a:hover{text-decoration:none;}
+
+.updatefmenu .border{height:2px;background:red;width:100%;margin-top:30px;margin-bottom:30px;}
+#HostFMenu th{color:blue;}
